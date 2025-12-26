@@ -1,11 +1,12 @@
-import React from 'react'
-import Child from './Child'
+import React from 'react';
+import DisplayData from './Component/DisplayData';
+// import UseEffectHook from './Component/UseEffectHook'
 
 function App() {
   return (
     <div>
-      <Child name ="Pradeep"/>
-        <Child name ="Pradeep"/>
+      {/* <UseEffectHook/> */}
+      <DisplayData/>
     </div>
   )
 }
